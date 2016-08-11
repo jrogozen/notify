@@ -1,0 +1,23 @@
+@import 'scss/includes/index.scss';
+
+button.NButton {
+  width: 100%;
+  background: inherit;
+  border: 2px solid $blue;
+  border-radius: 5px;
+  color: $blue;
+  padding: 10px;
+  transition: all ease-in 0.25s;
+  cursor: pointer;
+  &:hover {
+    background: $light-blue;
+    border: 2px solid $light-blue;
+    color: white;
+  }
+  &:active {
+    background: $light-blue;
+    opacity: 0.5;
+    border: 2px solid $light-blue;
+    color: white;
+  }
+}

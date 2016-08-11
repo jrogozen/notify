@@ -1,0 +1,14 @@
+@import 'scss/includes/index.scss';
+
+.NRange {
+  input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .current {
+    font-size: 18px;
+    color: $blue;
+    font-weight: bold;
+    text-align: center;
+  }
+}

@@ -1,0 +1,25 @@
+@import 'scss/includes/index.scss';
+
+.InviteAddRecipients {
+  .inviteaddrecipients-title {
+    font-size: 22px;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid silver;
+  }
+  .inviteaddrecipients-form {
+  }
+  .inviteaddrecipients-list {
+    margin-bottom: 40px;
+    li {
+      margin-bottom: 10px;
+      input {
+        padding: 10px;
+        width: 100%;
+      }
+    }
+  }
+  .range-picker {
+    margin-bottom: 40px;
+  }
+}

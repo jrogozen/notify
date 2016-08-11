@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: #eee;
+}
+
+.App {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding-top: 50px;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.container {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.disabled {
+  opacity: 0.4;
+  color: silver;
+}

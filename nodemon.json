@@ -1,0 +1,10 @@
+{
+  "verbose": false,
+  "watch": [
+    "server",
+    "webpack",
+    "app",
+    "scss"
+  ],
+  "exec": "npm run clean && npm run build:dev:server && npm run babel-node -- dist/server.js"
+}
